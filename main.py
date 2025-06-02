@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 from search_by_train import search_by_train
 from search_by_route import route_search_ui, build_timetable
 from search_by_station import search_by_station_ui
@@ -16,8 +17,9 @@ def get_train_labels(train_df):
 
 @st.cache_data
 def load_data():
-    train_df = pd.read_csv("database/train_schedule.csv")
-    station_df = pd.read_csv("database/station_index.csv")
+    pwd = os.getcwd()
+    train_df = pd.read_csv(f"{pwd}/database/train_schedule.csv")
+    station_df = pd.read_csv(f"{pwd}/database/station_index.csv")
     station_df["label"] = station_df["stationCode"] + " - " + station_df["stationName"]
     return train_df, station_df
 
