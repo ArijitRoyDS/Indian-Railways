@@ -1,0 +1,1616 @@
+stationCode,stationName
+HWH,Howrah Jn
+KGP,Kharagpur Jn
+BLS,Baleshwar
+BHC,Bhadrak
+JJKR,Jajpur K Road
+CTC,Cuttack
+BBS,Bhubaneswar
+KUR,Khurda Road Jn
+BALU,Balugaon
+CAP,Chatrapur
+BAM,Brahmapur
+IPM,Ichchpuram
+SPT,Sompeta
+PSA,Palasa
+NWP,Naupada Jn
+CHE,Srikakulam Road
+CPP,Chipurupalle
+VZM,Vizianagram Jn
+VSKP,Visakhapatnam
+AKP,Anakapalle
+TUNI,Tuni
+ANV,Annavaram
+SLO,Samalkot Jn
+RJY,Rajahmundry
+NDD,Nidadavolu Jn
+TDD,Tadepalligudem
+EE,Eluru
+BZA,Vijayawada Jn
+TEL,Tenali Jn
+BPP,Bapatla
+CLX,Chirala
+OGL,Ongole
+NLR,Nellore
+GDR,Gudur Jn
+MAS,Mgr Chennai Ctl
+SRC,Santragachi Jn
+SHM,Shalimar
+MCA,Mecheda
+RU,Renigunta Jn
+TPTY,Tirupati
+KPD,Katpadi Jn
+JTJ,Jolarpettai Jn
+KPN,Kuppam
+BWT,Bangarapet
+KJM,Krishnarajapurm
+SMVB,Smvt Bengaluru
+CSMT,C Shivaji Mah T
+DR,Dadar
+KYN,Kalyan Jn
+IGP,Igatpuri
+NK,Nashik Road
+JL,Jalgaon Jn
+BSL,Bhusaval Jn
+MKU,Malkapur
+SEG,Shegaon
+AK,Akola Jn
+BD,Badnera Jn
+WR,Wardha Jn
+NGP,Nagpur
+BRD,Bhandara Road
+G,Gondia Jn
+RJN,Raj Nandgaon
+DURG,Durg
+R,Raipur Jn
+BSP,Bilaspur Jn
+RIG,Raigarh
+JSG,Jharsuguda Jn
+ROU,Rourkela
+CKP,Chakradharpur
+TATA,Tatanagar Jn
+TNA,Thane
+PNVL,Panvel
+MNI,Mangaon
+KHED,Khed
+CHI,Chiplun
+SGR,Sangmeshwar
+RN,Ratnagiri
+ADVI,Adavali
+RAJP,Rajapur Road
+VBW,Vaibhavwadi Rd
+KKW,Kankavali
+SNDD,Sindhudurg
+KUDL,Kudal
+SWV,Sawantwadi Road
+PERN,Pernem
+THVM,Thivim
+KRMI,Karmali
+MAO,Madgaon
+VID,Vilavade
+KAWR,Karwar
+BTJL,Bhatkal
+UD,Udupi
+MAJN,Mangaluru Jn
+KGQ,Kasaragod
+CAN,Kannur
+CLT,Kozhikkode
+TIR,Tirur
+SRR,Shoranur Jn
+TCR,Thrisur
+AWY,Aluva
+ERS,Ernakulam Jn
+LS,Lasalgaon
+MMR,Manmad Jn
+RGO,Rotegaon
+LSR,Lasur
+AWB,Aurangabad
+J,Jalna
+PTU,Partur
+SELU,Selu
+PBN,Parbhani Jn
+PAU,Purna Jn
+NED,H Sahib Nanded
+MUE,Mudkhed
+BOKR,Bhokar
+HEM,Himayatnagar
+SHSK,Saharsrakund
+BHBK,Bodhadi Bujrug
+KNVT,Kinwat
+ADB,Adilabad
+PMKT,Pimpalkhuti
+WANI,Wani
+BUX,Bhandak
+CD,Chandrapur
+BPQ,Balharshah
+MVO,Manwath Road
+VEER,Veer
+SVX,Savarda
+AVRD,Aravali Road
+NAN,Nandgaon Road
+KJT,Karjat
+PUNE,Pune Jn
+STR,Satara
+KRD,Karad
+SLI,Sangli
+MRJ,Miraj Jn
+KUD,Kudachi
+GPB,Ghatprabha
+BGM,Belagavi
+KNP,Khanapur
+LD,Londa Jn
+LWR,Alnavar Jn
+DWR,Dharwar
+UBL,Sss Hubballi Jn
+HVR,Mmailara Haveri
+RNR,Ranibennur
+HRR,Harihar
+DVG,Davangere
+JRU,Chikjajur Jn
+RRB,Birur Jn
+DRU,Kadur
+ASK,Arsikere Jn
+TTR,Tiptur
+TK,Tumakuru
+BAW,Chik Banavar
+WFD,Whitefield
+VLR,Vellore Cant
+ARV,Arni Road
+PRL,Polur
+TNM,Tiruvannamalai
+TRK,Tirukoilur
+VM,Villupuram Jn
+PDY,Puducherry
+NRL,Neral
+LNL,Lonavala
+TGN,Talegaon
+KK,Khadki
+SVJR,Shivajinagar
+CCH,Chinchvad
+PMP,Pimpri
+LTT,Lokmanyatilak T
+KWV,Kurduvadi
+SUR,Solapur Jn
+DUD,Dudhani
+GUR,Ganagapur Road
+KLBG,Kalaburagi
+SDB,Shahabad
+WADI,Wadi
+YG,Yadgir
+KSN,Krishna
+RC,Raichur Jn
+MALM,Manthralayam Rd
+AD,Adoni
+GTL,Guntakal Jn
+ATP,Anantapur
+DMM,Dharmavaram Jn
+SSPN,Sai P Nilayam
+HUP,Hindupur
+GBD,Gauribidanur
+SBC,Ksr Bengaluru
+BNC,Bengaluru Cant
+HSRA,Hosur
+DPJ,Dharmapuri
+SA,Salem Jn
+ED,Erode Jn
+TUP,Tiruppur
+CBE,Coimbatore Jn
+DD,Daund Jn
+ET,Itarsi Jn
+JBP,Jabalpur
+STA,Satna
+MKP,Manikpur
+PCOI,Prayagrajcheoki
+MZP,Mirzapur
+DDU,Dd Upadhyaya Jn
+BXR,Buxar
+ARA,Ara Jn
+DNR,Danapur
+PPTA,Patliputra
+SEE,Sonpur Jn
+HJP,Hajipur Jn
+MFP,Muzaffarpur Jn
+SPJ,Samastipur Jn
+HPO,Hasanpur Road
+SLNA,Salauna
+KGG,Khagaria Jn
+SHC,Saharsa Jn
+GY,Gooty
+TU,Tadipatri
+YA,Yerraguntla Jn
+HX,Cuddapah Jn
+RJP,Razampeta
+AJJ,Arakkonam Jn
+PER,Perambur
+MS,Chennai Egmore
+TBM,Tambaram
+CGL,Chengalpattu Jn
+TDPR,Tirupadripulyur
+CDM,Chidambaram
+SY,Sirkazhi
+MV,Mayiladuturai J
+TVR,Thiruvarur Jn
+NGT,Nagappattinam
+NCR,Nagore
+KIK,Karaikal
+SEM,Seram
+TDU,Tandur
+LPI,Lingampalli
+BMT,Begampet
+SC,Secunderabad Jn
+KZJ,Kazipet Jn
+WL,Warangal
+MABD,Mahbubabad
+KMT,Khammam
+MDR,Madhira
+PAP,Pithapuram
+MCS,Mancheswar
+BBSN,Bhubaneswar New
+JEUR,Jeur
+NMKL,Namakkal
+KRR,Karur Jn
+DG,Dindigul Jn
+MDU,Madurai Jn
+VPT,Virudunagar Jn
+SRT,Satur
+CVP,Kovilpatti
+TEN,Tirunelveli Jn
+URI,Uruli
+DDCC,Daund Chord Lin
+ANG,Ahmadnagar
+BAP,Belapur
+PB,Puntamba
+KPG,Kopargaon
+CSN,Chalisgaon Jn
+KJ,Kajgaon
+PC,Pachora Jn
+BDWD,Bodwad
+NN,Nandura
+AMI,Amravati
+KDG,Kedgaon
+BGVN,Bhigwan
+KEM,Kem
+PVR,Pandharpur
+SGLA,Sangola
+MSDG,Mhasoda Dongar
+JTRD,Jath Road
+DLGN,Dhalgaon
+KVK,Kavathe Mahankl
+BVQ,Bhilavdi
+KOV,Kirloskarvadi
+TKR,Takari
+MSR,Masur
+KRG,Koregaon
+JJR,Jejuri
+NIRA,Nira
+LNN,Lonand
+WTR,Wathar
+RMP,Rahimatpur
+TAZ,Targaon
+SIW,Shirravde
+JSP,Jayasingpur
+HTK,Hatkanagale
+KOP,C Shahumharaj T
+NMGT,Nmg Tamdalge
+VRB,Vishrambag
+KNW,Khandwa
+PPI,Pipariya
+NU,Narsinghpur
+KTE,Katni
+PRYJ,Prayagraj Jn
+PRRB,Prayagrajrambag
+GYN,Gyanpur Road
+BSBS,Banaras
+BSB,Varanasi Jn
+BCY,Varanasi City
+ARJ,Aunrihar Jn
+GCT,Ghazipur City
+BUI,Ballia
+CPR,Chhapra
+LSI,Laheria Sarai
+DBG,Darbhanga Jn
+HAS,Hassan
+HLN,Hole Narsipur
+KRNR,Krishnarajnagar
+MYS,Mysuru Jn
+MAU,Mau Jn
+SRU,Salempur Jn
+DEOS,Deoria Sadar
+GKP,Gorakhpur Jn
+BLTR,Belthara Road
+ABLE,Ambale
+YL,Yeola
+NGN,Nandgaon
+JM,Jalamb Jn
+MZR,Murtajapur
+CND,Chandur
+DMN,Dhamangaon
+PLO,Pulgaon Jn
+TGP,Tuljapur
+SNI,Sindi
+AJNI,Ajni
+NITR,Nsc Bose Itwari
+KP,Kamptee
+TMR,Tumsar Road
+TRO,Tirora
+VNA,Varangaon
+SNSI,Sainagar Shirdi
+BTW,Barsi Town
+UMD,Usmanabad
+LUR,Latur
+LTRR,Latur Road Jn
+PRLI,Parli Vaijnath
+MJRI,Majri Jn
+SEGM,Sevagram
+NRKR,Narkher
+AMLA,Amla Jn
+BZU,Betul
+GDYA,Ghoradongri
+BBU,Bhabua Road
+SSM,Sasaram
+DOS,Dehri On Sone
+AUBR,Anugraha N Road
+GAYA,Gaya Jn
+KQR,Koderma Jn
+PNME,Parasnath
+DHN,Dhanbad Jn
+SED,Shedbal
+UGR,Ugar Khurd
+CNC,Chinchli
+RBG,Raybag
+UBL,Hubballi Jn
+ADI,Ahmedabad Jn
+ND,Nadiad Jn
+ANND,Anand Jn
+BRC,Vadodara Jn
+BH,Bharuch Jn
+ST,Surat
+NVS,Navsari
+VAPI,Vapi
+BSR,Vasai Road
+BIRD,Bhiwandi Road
+PLP,Phulpur
+JNH,Janghai Jn
+MAY,Mariahu
+ZBD,Zafarabad Jn
+JNU,Jaunpur Jn
+SHG,Shahganj Jn
+KRND,Khorason Road
+SMZ,Sarai Mir
+AMH,Azamgarh
+MMA,Muhammadabad
+KSRA,Kasara
+DVL,Devlali
+SAV,Savda
+RV,Raver
+BAU,Burhanpur
+NPNR,Nepanagar
+TLV,Talvadya
+CAER,Chhanera
+KKN,Khirkiya
+HD,Harda
+TBN,Timarni
+BPF,Banapura
+NDPM,Narmadapuram
+BNI,Budni
+ODG,Obaidulla Ganj
+MDDP,Mandi Dip
+RKMP,Rani Kamalapati
+BPL,Bhopal Jn
+BHS,Vidisha
+GLG,Gulabhganj
+BAQ,Ganj Basoda
+MABA,Mandi Bamora
+BINA,Bina Jn
+DUA,Dhaura
+LAR,Lalitpur Jn
+TBT,Talbahat
+BZY,Basai
+BAB,Babina
+VGLJ,V Lakshmibaijhs
+DAA,Datia
+DBA,Dabra
+GWL,Gwalior
+MRA,Morena
+DHO,Dhaulpur
+AGC,Agra Cantt
+MTJ,Mathura Jn
+KSV,Kosi Kalan
+PWL,Palwal
+FDB,Faridabad
+NZM,H Nizamuddin
+NDLS,New Delhi
+SZM,Subzi Mandi
+NUR,Narela
+SNP,Sonipat
+GNU,Ganaur
+SMK,Samalkha
+PNP,Panipat Jn
+KUN,Karnal
+NLKR,Nilokheri
+KKDE,Kurukshetra Jn
+SHDM,Shahbad Marknda
+UMB,Ambala Cant Jn
+UBC,Ambala City
+RPJ,Rajpura Jn
+PTA,Patiala
+NBA,Nabha
+DUI,Dhuri Jn
+MET,Malerkotla
+AHH,Ahmadgarh
+LDH,Ludhiana Jn
+PHR,Phillaur Jn
+PGW,Phagwara Jn
+JRC,Jalandhar Cant
+JUC,Jalandhar City
+BEAS,Beas
+JNL,Jandiala
+ASR,Amritsar Jn
+KRE,Kartarpur
+TRR,Taraori
+GRA,Gharaunda
+RDDE,Rathdhana
+ANDI,Adrsh Ngr Delhi
+BVH,Ballabgarh
+BTT,Bhatni Jn
+MW,Mairwa
+SV,Siwan Jn
+MYR,Maihar
+NYN,Naini
+BHLP,Bhulanpur
+SRNT,Sarnath
+YFP,Yusufpur
+SIP,Suraimanpur
+DGA,Dighwara
+BNR,Bhagwanpur
+DOL,Dholi
+SKI,Sakri Jn
+MBI,Madhubani
+JYG,Jaynagar
+JTJ,Jolarpettai
+MYA,Mandya
+FD,Faizabad Jn
+SLN,Sultanpur
+PBH,Partapgarh Jn
+KYE,Khurai
+SGO,Saugor
+PHA,Patharia
+DMO,Damoh
+BNU,Bandakpur
+KMZ,Katni Murwara
+JTW,Jaitwar
+MJG,Majhagawan
+DBR,Dabhaura
+BOY,Bhadohi
+PRF,Parsipur
+SWPR,Sewapuri
+LOT,Lohta
+SAW,Suriawan
+JLN,Jakhalaun
+RKM,Raja Ki Mandi
+SIR,Sirhind Jn
+KNN,Khanna
+DZA,Dasuya
+MEX,Mukerian
+PTKC,Pathankot Cantt
+KTHU,Kathua
+HRNR,Hira Nagar
+VJPJ,Vijiypur Jammu
+JAT,Jammu Tawi
+VRL,Veraval
+KSD,Keshod
+JND,Junagadh Jn
+NUD,Navagadh
+GDL,Gondal
+RJT,Rajkot Jn
+WKR,Wankaner Jn
+SUNR,Surendranagar
+VG,Viramgam Jn
+BL,Valsad
+DRD,Dahanu Road
+BGKT,Bhagat Ki Kothi
+LUNI,Luni Jn
+PMY,Pali Marwar
+MJ,Marwar Jn
+RANI,Rani
+FA,Falna
+JWB,Jawai Bandh
+ABR,Abu Road
+PNU,Palanpur Jn
+MSH,Mahesana Jn
+MAN,Maninagar
+BHUJ,Bhuj
+AJE,Anjar
+AI,Adipur
+GIMB,Gandhidham Bg
+BCOB,Bhachau Bg
+SIOB,Samakhiali B G
+HVD,Halvad
+DHG,Dhrangdhra
+CLR,Castle Rock
+QLM,Kulem
+SVM,Sanverdam Chuch
+GOK,Gokarna Road
+KT,Kumta
+HNA,Honnavar
+MRDW,Murdeshwar
+BYNR,Mookambika Road
+KUDA,Kundapura
+KZE,Kanhangad
+PAY,Payyanur
+TLY,Thalassery
+ERN,Ernakulam Town
+ORC,Orchha
+NEW,Nivari
+TKA,Teharka
+MRPR,Mau Ranipur
+HPP,Harpalpur
+BTX,Bela Tal
+KLAR,Kulpahar
+MBA,Mahoba Jn
+BNDA,Banda Jn
+ATE,Atarra
+CKTD,Chitrakutdham K
+BRG,Bargarh
+SRJ,Shankargarh
+PRG,Prayag
+CHH,Chaukhandi
+CGN,Chirgaon
+MOTH,Moth
+AIT,Ait
+ORAI,Orai
+KPI,Kalpi
+PHN,Pokhrayan
+GOY,Govindpuri
+CNB,Kanpur Central
+ON,Unnao Jn
+LJN,Lucknow Ne
+LKO,Lucknow Nr
+BBK,Barabanki Jn
+BUW,Burhwal
+CLJ,Colonelganj
+GD,Gonda Jn
+MUR,Mankapur Jn
+MSW,Maskanwa
+BV,Babhnan
+BST,Basti
+KLD,Khalilabad
+SWA,Sahjanwa
+BHTR,Bhatpar Rani
+BTK,Bankata
+DDA,Duraundha Jn
+EKMA,Ekma
+KRBP,Khudiram B Pusa
+DSS,Dalsingh Sarai
+BJU,Barauni Jn
+RTM,Ratlam Jn
+BNG,Barnagar
+FTD,Fatehabad Ch Jn
+INDB,Indore Jn Bg
+DWX,Dewas
+UJN,Ujjain Jn
+MKC,Maksi
+SFY,Shajapur
+PFR,Pachor Road
+BRRG,Biyavra Rajgarh
+RTA,Ruthiyai
+GUNA,Guna
+MINA,Miyana
+BDWS,Badarwas
+KLRS,Kolaras
+SVPI,Shivpuri
+MOJ,Mohana
+SASR,Sausar
+CWA,Chhindwara Jn
+SEY,Seoni
+KLZ,Keolari
+NIR,Nainpur Jn
+KTES,Katni South
+UMR,Umaria
+BRS,Birsinghpur
+SDL,Shahdol
+KATL,Katol
+PAR,Pandhurna
+MTY,Multai
+HBJ,Habibganj
+SEH,Sehore
+SJP,Shujalpur
+BCH,Berchha
+NAD,Nagda Jn
+RMA,Ramganj Mandi
+KOTA,Kota Jn
+BUDI,Bundi
+MLGH,Mandalgarh
+COR,Chittaurgarh
+BHL,Bhilwara
+BJNR,Bijainagar
+NSD,Nasirabad
+AII,Ajmer Jn
+KSG,Kishangarh
+FL,Phulera Jn
+JOB,Asalpur Jobner
+KKU,Kanakpura
+JP,Jaipur
+SHR,Sihora Road
+BUH,Burhar
+APR,Anuppur Jn
+KTMA,Kotma
+BJRI,Bijuri
+BRH,Baikunthpur Rd
+KTO,Katora
+BSPR,Bishrampur
+ABKP,Ambikapur
+GMD,Guramkhedi
+SGP,Sohagpur
+BKH,Bankhedi
+SCKR,Salichauka Road
+GAR,Gadarwara
+BNE,Bohani
+KY,Kareli
+BELD,Belkhera
+KKB,Karak Bel
+SRID,Shridham
+BHTN,Bhitoni
+BRGT,Bheraghat
+MML,Madan Mahal
+DOE,Deori
+GSPR,Gosalpur
+DDCE,Dundi
+SBD,Sleemanabad Rd
+REI,Rithi
+SYA,Salaia
+GAJ,Ganeshganj
+MKRN,Makronia
+JRK,Jeruwa Khera
+SCI,Sanchi
+AKOR,Akalkot Road
+NW,Nalwar
+SADP,Saidapur
+PKD,Penukonda
+DBU,Dodballapur
+YNK,Yelhanka Jn
+TKWD,Tikekarwadi
+HG,Hotgi
+SLGE,Sulerjavalge
+TVL,Tadwal
+PDNR,Padnur
+LHN,Lachyan
+IDR,Indi Road
+CHRG,Chorgi
+NBL,Nimbal
+KTK,Kyataneakeri Rd
+MNL,Minchnal
+BJP,Vijayapura
+IMR,Ibrahimpur
+JML,Jumnal
+HOH,Honaganahalli
+MVD,Mulvad
+KDGI,Kudgi
+BSRX,Bagevadi Rd
+WDL,Wandal
+BENL,Benl
+LMT,Almatti
+KSAR,Kudala Sangam
+SII,Sitimani
+KLM,Kadlimatti
+MGL,Mangela
+BGK,Bagalkot
+GED,Guledagudda Rd
+BDM,Badami
+LKY,Lakhmapur
+HLAR,Hole Alur
+MLP,Mallapur
+BLR,Balganur
+HBL,Hombal
+GDG,Gadag Jn
+WHM,Washim
+HNL,Hingoli Deccan
+JNTR,Jinti Road
+BMF,Basmat
+KHBJ,Khanna Banjari
+VST,Bijaysota
+BEHR,Beohari
+MWJ,Marwasgram
+SGAM,Sareigram
+BRGW,Bargawan
+SGRL,Singrauli
+CPU,Chopan
+RNQ,Renukut
+DXN,Duddhinagar
+WDM,Wyndhamganj
+NUQ,Nagar Untari
+RMF,Ramna
+GHQ,Garhwa
+GHD,Garwa Road
+DTO,Daltonganj
+BRWD,Barwadih Jn
+LTHR,Latehar
+TORI,Tori
+MGME,Mccluskieganj
+KLRE,Khalari
+RAY,Ray
+PTRU,Patratu
+BRKA,Barka Kana
+RRME,Ranchi Road
+CNPR,Chainpur
+GMIA,Gumia
+BKRO,Bokaro Thermal
+BRMO,Bermo
+PUS,Phusro
+CRP,Chandrapura Jn
+KTH,Katrasgarh
+KMME,Kumardubi
+BRR,Barakar
+ULT,Kulti
+ASN,Asansol Jn
+RNG,Raniganj
+DGR,Durgapur
+BWN,Barddhaman Jn
+MAKR,Bina Malkhedi
+TKD,Tuglakabad
+OKA,Okhla
+DKZ,Delhi Kishangnj
+SSB,Shakurbasti
+BGZ,Bahadurgarh
+ROK,Rohtak Jn
+JIND,Jind Jn
+NRW,Narwana Jn
+JHL,Jakhal Jn
+SAG,Sangrur
+MCTM,Mtyr C Tushar M
+SVDK,Shmata Vd Katra
+SMNH,Somnath
+MLHA,Maliya Hatina
+JLR,Jetalsar Jn
+VRR,Virpur
+BKNG,Bhakti Nagar
+THAN,Than Jn
+CLDY,Chandlodiya
+MHD,Mhmdvd Kheda Rd
+CYI,Chhayapuri
+DRL,Derol
+GDA,Godhra Jn
+DHD,Dahod
+MGN,Meghnagar
+KUH,Khachrod
+KSH,Kali Sindh
+AKD,Akodia
+KPP,Kalapipal
+PRB,Parbati
+SHRN,S Hirdaramnagar
+MFQ,Mahroi
+JOBA,Joba
+NWB,Niwas Road
+GAJB,Gajara Bahara
+REWA,Rewa
+JKE,Jukehi
+DADN,Dr Ambedkar Ngr
+CDG,Chandigarh
+KLK,Kalka
+MMCT,Mumbai Central
+BVI,Borivali
+DEC,Delhi Cantt
+GGN,Gurgaon
+RE,Rewari
+AWR,Alwar
+BKI,Bandikui Jn
+GADJ,Gandhinagar Jpr
+DOZ,Daurai
+GZB,Ghaziabad
+MTC,Meerut City
+MOZ,Muzaffarnagar
+SRE,Saharanpur
+RK,Roorkee
+HW,Haridwar Jn
+DDN,Dehradun
+BKSC,Bokaro Stl City
+MURI,Muri
+RNC,Ranchi
+JGM,Jhargram
+GTS,Ghatsila
+SINI,Sini Jn
+CBSA,Chaibasa
+DPS,Dangoaposi
+NOMD,Noamundi
+BJMD,Bara Jamda
+BBN,Barabil
+VKB,Vikarabad Jn
+HYB,Hyderabad Decan
+SPE,Sullurupeta
+NYP,Nayudupeta
+KVZ,Kavali
+NGNT,New Guntur
+YPR,Yesvantpur Jn
+BDJ,Vadakara
+KTYM,Kottayam
+TRVL,Tiruvalla
+CNGR,Chengannur
+MVLK,Mavelikara
+KYJ,Kayankulam Jn
+QLN,Kollam Jn
+TVC,Trivandrum Cntl
+ASH,Aishbagh
+MBP,Mohibullapur
+SD,Sidhauli
+STP,Sitapur
+NR,Niphad
+MA,Madha
+DGG,Dongargarh
+BYT,Bhatapara
+CPH,Champa Jn
+BRJN,Brajrajnagar
+GP,Rajgangpur
+SL,Surathkal
+TUN,Tohana
+BRZ,Bareta
+BLZ,Budhlada
+MSZ,Mansa
+MAUR,Maur
+BTI,Bathinda Jn
+GNA,Goneana B Jagta
+GJUT,Gangsar Jaitu
+KKP,Kot Kapura
+FDK,Faridkot
+FZR,Firozpur Cant
+ZNA,Zamania
+MBLP,Mah Bijli Pasi
+MFKA,Musafir Khana
+MSMD,Mahasamund
+KRAR,Khariar Road
+KBJ,Kantabanji
+TIG,Titlagarh
+BLGR,Balangir
+BRGA,Bargarh Road
+SBP,Sambalpur
+ANGL,Angul
+TLHR,Talcher
+DNKL,Dhenkanal
+PURI,Puri
+PRR,Purulia Jn
+ADRA,Adra Jn
+BQA,Bankura
+MDN,Midnapore
+PUT,Puttur
+TRT,Tiruttani
+KOU,Koduru
+TPZ,Tapri
+RBL,Rae Bareli Jn
+AME,Amethi
+MBDP,Ma Belhadevi Dp
+GMO,Nsc Bose J Gomo
+CAR,Chunar
+BDL,Vindhyachal
+BWR,Barwa Sagar
+PNKD,Panki Dham
+RURA,Rura
+JJK,Jhinjhak
+PHD,Phaphund
+BNT,Bharthana
+ETW,Etawah Jn
+SKB,Shikohabad Jn
+FZD,Firozabad
+TDL,Tundla Jn
+JAB,Yamuna Bdg Agra
+AF,Agra Fort
+MNV,Mungaoli
+ASKN,Ashok Nagar
+CAG,Chhabra Gugor
+ATRU,Atru
+BAZ,Baran
+ATH,Antah
+LKE,Lakheri
+IDG,Indargarh
+SWM,Sawai Madhopur
+CKB,Chauth Ka Brwra
+BNLW,Bansthali Niwai
+DPA,Durgapura
+GUGD,G Gorkhnath Dhm
+UDR,Amdara
+UHR,Unchhera
+DHNE,Dhone
+KRNT,Kurnool City
+GWD,Gadwal Jn
+KCG,Kacheguda
+RDM,Ramagundam
+SKZR,Sirpur Kagazngr
+IDH,Idgah Agra Jn
+AH,Achhnera Jn
+BTE,Bharatpur Jn
+NBI,Nadbai
+KL,Kherli
+MURD,Mandawar M Rd
+DO,Dausa
+GTJT,Getor Jagatpura
+NRI,Naraina
+PIA,Pipraigaon
+SHDR,Shadhoragaon
+ANKL,Ankola
+CGY,Changanaseri
+TVCN,Trivandrumnorth
+SBV,S Bakhtiyarpur
+BGS,Begu Sarai
+HRI,Hardoi
+BE,Bareilly
+MB,Moradabad
+HPU,Hapur
+DDL,Dhandari Kalan
+KGM,Kathgodam
+HDW,Haldwani
+LKU,Lal Kuan
+RUPC,Rudrapur City
+BLQR,Bilaspur Road
+RMU,Rampur
+LRJ,Laksar Jn
+YJUD,Yamunanagar Jud
+SPN,Shahjehanpur
+CAA,Chakia
+BMKI,Bapudm Motihari
+SGL,Sagauli Jn
+BTH,Bettiah
+NKE,Narkatiaganj Jn
+BUG,Bagaha
+ANVT,Anand Vihar Trm
+DEE,Delhi S Rohilla
+KRH,Khairthal
+GNC,Gandhinagar Cap
+BDTS,Bandra Terminus
+ALLP,Alleppey
+ROHA,Roha
+MLPR,Malipur
+ABP,Akbarpur
+AY,Ayodhya Dham Jn
+AYC,Ayodhya Cantt
+RDL,Rudauli
+BNZ,Badshahnagar
+ALJN,Aligarh Jn
+DLI,Delhi
+AMG,Alamnagar
+SEO,Seohara
+DPR,Dhampur
+NGG,Nagina
+NBD,Najibabad Jn
+JUDW,Jagadhri Wshop
+MDP,Madhupur Jn
+JSME,Jasidih Jn
+JAJ,Jhajha
+KIUL,Kiul Jn
+MKA,Mokameh Jn
+PNBE,Patna Jn
+JOP,Jaunpur City
+LBA,Lambhua
+RGS,Ringas Jn
+SIKR,Sikar Jn
+JJN,Jhunjhunun
+LHU,Loharu
+SDLP,Sadulpur Jn
+HSR,Hisar
+SASN,Sahibzada Asngr
+MBNR,Mahbubnagar
+CAF,Chanda Fort
+WSA,Wadsa
+AKT,Akaltara
+NIA,Janjgir Naila
+KRBA,Korba
+DVD,Duvvada
+DKAE,Dankuni
+AHA,Abhaipur
+JMP,Jamalpur Jn
+BGP,Bhagalpur
+BAND,Banaswadi
+PGT,Palakkad Jn
+SDAH,Sealdah
+CUR,Churu
+RTGH,Ratangarh Jn
+SDGH,Sri Dungargarh
+BKN,Bikaner Jn
+HAPA,Hapa
+WJR,Walajah Road Jn
+DLN,Dildarnagar Jn
+CRJ,Chittaranjan
+JMT,Jamtara
+JMU,Jamui
+BARH,Barh
+BKP,Bakhtiyarpur Jn
+RFJ,Rafiganj
+FTP,Fatehpur
+NAC,Nawa City
+KMNC,Kuchaman City
+MKN,Makrana Jn
+DNA,Degana Jn
+MTD,Merta Road Jn
+JU,Jodhpur Jn
+RJPB,Rajendranagar T
+HZD,Hazaribagh Rd
+HRS,Hathras Jn
+KRJ,Khurja Jn
+CNDM,Chandi Mandir
+KOAA,Kolkata
+CNA,Chanderiya
+MVJ,Mavli Jn
+RPZ,Ranapratapnagar
+UDZ,Udaipur City
+PNC,Patna Saheb
+CPA,Kanpur Anwrganj
+KJN,Kannauj
+FBD,Farrukhabad
+KSJ,Kasganj
+HTC,Hathras City
+PAN,Panagarh
+PSB,Parsabad
+SUJH,Sujangarh
+LAU,Ladnun
+DIA,Didwana
+CTKT,Choti Khatu
+SMR,Samdhari Jn
+BLT,Balotra Jn
+BME,Barmer
+RPAR,Rupnagar
+ANSB,Anandpur Sahib
+NLDM,Nangal Dam
+FUT,Fatuha Jn
+BTA,Bihta
+BEA,Bihiya
+RPR,Raghunathpur
+DURE,Dumraon
+CSA,Chausa
+GMR,Gahmar
+KEI,Kashi
+SGG,Sultanganj
+BUP,Bariarpur
+KJH,Kajra
+LKR,Luckeesarai Jn
+KOO,Khusropur
+GKH,Guskara
+BHP,Bolpur S Niktn
+MNAE,Mankar
+OYR,Waria
+UDL,Andal Jn
+STN,Sitarampur
+MLDT,Malda Town
+KNE,Kishanganj
+NJP,New Jalpaiguri
+JPG,Jalpaiguri
+HDB,Haldibari
+SNT,Sainthia
+RPH,Rampur Hat
+NFK,New Farakka Jn
+DQG,Dhupguri
+FLK,Falakata
+NCB,New Cooch Behar
+NOQ,New Alipurduar
+NBQ,New Bongaigaon
+KYQ,Kamakhya
+GHY,Guwahati
+KQU,Kamarkundu
+PNE,Prantik
+AMP,Ahmadpur Jn
+GODA,Godda
+HSDA,Hansdiha
+MDLE,Mandar Hill
+BHLE,Barahat
+NWD,Nawadah
+BRYA,Barhiya
+HTZ,Hathidah Jn
+BC,Bareilly City
+IZN,Izzatnagar
+KHH,Kichha
+PKR,Pakur
+HCR,Harischandrpur
+TEA,Taregna
+JHD,Jehanabad
+PRP,Paharpur
+DRH,Dharhara
+MHRG,Mahendragarh
+RJR,Rajaldesar
+NPS,Napasar
+VBL,Bobbili
+PVP,Parvatipuram
+RGDA,Rayagada
+MNGD,Muniguda
+KSNG,Kesinga
+JOC,Joychandi Pahar
+SM,Samsi
+DLK,Dalkolha
+JPE,Jalpaiguri Road
+NCBD,N Changrabandha
+MHBA,Mathabhanga
+BP,Barrackpore
+NH,Naihati Jn
+BDC,Bandel Jn
+BTC,Balaghat Jn
+NAB,Nagbhir Jn
+RGD,Rajgir
+NLD,Nalanda
+POE,Pawapuri Road H
+BEHS,Bihar Sharif
+WENA,Wena
+HRT,Harnaut
+PWS,Phulwari Sharif
+GRRU,Guraru
+KTQ,Kudra
+BRE,Bharwari
+GGC,Gangapur City
+HAN,Hindaun City
+BXN,Bayana Jn
+HAB,Bah
+FAB,Fatehabad
+GDO,Goverdhan
+DEEG,Deeg
+BINR,Brij Nagar
+GVH,Govindgarh
+RAH,Ramgarh
+DO,Dausa Jn
+FPS,Fatehpur Skhwti
+SDF,Sudsar
+LGH,Lalgarh Jn
+KHS,Kharsia
+TLD,Tilda Neora
+KARR,Kharar
+NMDA,New Morinda
+SMRL,Samrala
+RHG,Rajgarh
+GHH,Garhi Harsaru
+MEP,Mahidpur Road
+VMA,Vikramgarh Alot
+CMU,Chau Mahla
+SVA,Suwasra
+SGZ,Shamgarh
+GOH,Garot
+BWM,Bhawani Mandi
+SMVJ,Shri Mahaveerji
+DBRG,Dibrugarh
+NTSK,New Tinsukia Jn
+MXN,Mariani Jn
+DMV,Dimapur
+LMG,Lumding Jn
+CPK,Chaparmukh Jn
+RNY,Rangiya Jn
+KOJ,Kokrajhar
+KIR,Katihar Jn
+NNA,Naugachia
+MNE,Mansi Jn
+SRO,Sirathu
+HYT,Haiaghat
+SFMU,Sunam Udham S W
+BNN,Barnala
+PUL,Rampura Phul
+BTI,Bhatinda Jn
+MBY,Mandi Dabwali
+SGRA,Sangaria
+HMH,Hanumangarh Jn
+SGNR,Shri Ganganagar
+SDS,Sadulshahr
+HLZ,Haldia
+TMZ,Tamluk
+PKU,Panskura
+RMJK,Ram Nagar J K
+LAD,Lohardaga
+SBDR,Sonbhadra
+GDB,Giddarbaha
+MOT,Malout
+ABS,Abohar
+KESR,Kesri Singhpur
+SRW,Shri Karanpur
+GJS,Gajsinghpur
+RSNR,Rai Singh Nagar
+JES,Jaitsar
+SOG,Suratgarh Jn
+LKS,Lunkaransar
+SBIB,Sabarmati Bg
+DARA,Dara
+DKNT,Dakaniya Talav
+KPZ,Kapren
+ISA,Isarda
+SBR,Sambhar Lake
+REN,Ren
+GOTN,Gotan
+RKB,Raika Bagh P Jn
+JSM,Jaisalmer
+POK,Pokaran
+RDRA,Ramdevra
+PLCJ,Phalodi Jn
+KLYT,Kolayat
+DSO,Deshnok
+NOK,Nokha
+NGO,Nagaur
+MDW,Marwar Mundwa
+GCH,Gachhipura
+BLM,Balamu Jn
+PLG,Palghar
+BMI,Bamnia
+JAM,Jamnagar
+PDWA,Pindwara
+SPZ,Sampla
+JBN,Jogbani
+FBG,Forbesganj
+ARQ,Arariya Court
+PRNA,Purnea Jn
+MKSR,Mokalsar
+JOR,Jalor
+MON,Modran
+MBNL,Marwar Bhinmal
+RNV,Raniwara
+DQN,Dhanera
+BLDI,Bhildi
+PTN,Patan
+DDR,Dadar
+MINJ,Maikalganj
+NDAE,Nabadwip Dham
+KWAE,Katwa
+AZ,Azimganj Jn
+JRLE,Jangipur Road
+GLPT,Goalpara Town
+MYD,Manderdisa
+NHLG,New Haflong
+BPB,Badarpur Jn
+NKMG,New Karimganj
+DMR,Dharmanagar
+AGTL,Agartala
+BPRD,Barpeta Road
+BOE,Barsoi Jn
+HJI,Hojai
+MBG,Maibong
+SCL,Silchar
+HGT,Hinganghat
+BPA,Bellampalli
+MCI,Manchiryal
+OTP,Ottappalam
+WKI,Wadakancheri
+IJK,Irinjalakuda
+CKI,Chalakudi
+AFK,Angamali
+SRTL,Cherthala
+AMPA,Ambalappuzha
+HAD,Harippad
+CHZ,Charlapalli
+GNT,Guntur Jn
+JID,Jagi Road
+ABSA,Ambasa
+ROA,Rusera Ghat
+RGU,Ragaul
+PND,Pendra Road
+USL,Uslapur
+MAI,Mehsi
+CAI,Chanpatia
+HIR,Harinagar
+SBZ,Siswa Bazar
+MBS,Madhosingh
+JI,Jhusi
+KML,Kamtaul
+JNR,Janakpur Road
+SMI,Sitamarhi
+BGU,Bairagnia
+RXL,Raxaul Jn
+BER,Beawar
+DSJ,Delhi Safdarjng
+HIJ,Hijli
+NNO,Nangloi
+KLNK,Kalanaur Kalan
+BNW,Bhiwani
+BHT,Bhattu
+SSA,Sirsa
+MTR,Motipur
+PPA,Pipra
+CPJ,Kaptanganj Jn
+NBJU,New Barauni Jn
+ARA,Ara
+ALD,Allahabad Jn
+KGI,Kengeri
+TRL,Tiruvallur
+PTJ,Podanur Jn
+PTB,Pattambi
+KTU,Kuttippuram
+TA,Tanur
+PGI,Parpanangadi
+FK,Ferok
+QLD,Quilandi
+MAHE,Mahe
+PAZ,Payangadi
+CHV,Charvattur
+MAQ,Mangaluru Cntl
+MJS,Manjeshwar
+SKM,Singarayakonda
+NDO,Nidubrolu
+SAP,Sattenapalle
+PGRL,Piduguralla
+NDKD,Nadikudi Jn
+MRGA,Miryalaguda
+NLDA,Nalgonda
+MLMR,Melmaruvattur
+VRI,Vridhachalam Jn
+PNDM,Pennadam
+ALU,Ariyalur
+LLI,Lalgudi
+SRGM,Srirangam
+GOC,Ponmlai Gld Rck
+TPJ,Tiruchchirapali
+PDKT,Pudukkottai
+KKDI,Karaikkudi Jn
+MBM,Mambalam
+SHU,Sholinghur
+AB,Ambur
+MCN,Mukundarayapurm
+GYM,Gudiyattam
+VN,Vaniyambadi
+MLO,Malur
+BNCE,Bengaluru East
+RMGM,Ramanagaram
+CPT,Channapatna
+MAD,Maddur
+PANP,Pandavapura
+BFP,Bilochpura Agra
+NLE,Nileshwar
+BKJ,Barkur
+MULK,Mulki
+TRTR,Triupunittura
+VAK,Varkalasivagiri
+TVP,Trivandrum Pett
+AVD,Avadi
+VARD,Vaikom
+CTO,Chittoor
+TMV,Tindivanam
+SDN,Sholavandan
+VLY,Valliyur
+NCJ,Nagercoil Jn
+CAPE,Kanyakumari
+MPA,Manaparai
+ABI,Ambaturai
+KQN,Kodaikanal Road
+CBF,Coimbatore Nrth
+KBL,Koppal
+HPT,Hosapete Jn
+BAY,Ballari Jn
+AKV,Ankleshwar Jn
+UDN,Udhna Jn
+VYA,Vyara
+NDB,Nandurbar
+DDE,Dondaicha
+SNK,Sindkheda
+AN,Amalner
+DXG,Dharangaon
+WRR,Warora
+PDPL,Peddapalli Jn
+TTL,Tiruttangal
+SVKS,Sivakasi
+SVPR,Srivilliputtur
+RJPM,Rajapalayam
+SNKL,Sankarankovil
+PBKS,Pmbakvl Shandy
+KDNL,Kadayanallur
+TSI,Tenkasi Jn
+SCT,Sengottai
+CGL,Chengalpattu
+TEN,Tirunelveli
+MTP,Metupalaiyam
+MAP,Morappur
+CRLM,Carmelaram
+SGE,Sankaridurg
+SLY,Samalpatti
+BQI,Bommidi
+TPT,Tirupattur Jn
+KRR,Karur
+TKE,Tarikere Jn
+BDVT,Bhadravati
+SMET,Shivamogga Town
+MMK,Madurantakam
+TMQ,Tirumangalam
+KDU,Kadambur
+MEJ,Vanchimaniyachi
+TME,Tuti Melur
+TN,Tuticorin
+KZK,Kazhakuttam
+CT,Chittapur
+MAG,Mangalagiri
+DKJ,Dornakal Jn
+NKD,Nekonda
+GNP,Ghanpur
+ZN,Jangaon
+ALER,Aler
+BG,Bhongir
+VDE,Vedayapalem
+BTTR,Bitragunta
+KDM,Kesamudram
+APT,Anaparti
+NZD,Nuzvid
+NBH,Nimbahera
+NMH,Nimach
+MDS,Mandasor
+NZB,Nizamabad Jn
+KMC,Kamareddi
+AJP,Ajjampur
+HSD,Hosdurga Road
+BYD,Byadgi
+YLG,Yalvigi
+YLM,Ellamanchili
+NRP,Narsipatnam Rd
+HDP,Hadapsar
+PAK,Pakala Jn
+PIL,Piler
+KCI,Kalikiri
+MPL,Madanapalle Rd
+MCU,Mulacalacheruvu
+KRY,Kadiri
+MGB,Mudigubba
+KHT,Sri Kalahasti
+VKI,Venkatagiri
+BN,Bibinagar
+COA,Kakinada Port
+CCT,Kakinada Town
+DWP,Dwarapudi
+KVR,Kovvur
+RYP,Rayanapadu
+VSG,Vasco Da Gama
+VNUP,Vishnupuram Jn
+CTYL,Chityala
+NRDP,Nagireddipalli
+SNF,Sanat Nagar
+SKP,Shankarpalli
+JMKT,Jamikunta
+KRMR,Karimnagar
+DAB,Dharmabad
+SRNR,Sriramnagar
+TNKU,Tanuku
+BVRT,Bhimavaram Town
+AKVD,Akividu
+KKLR,Kaikalur
+GDV,Gudivada Jn
+JCL,Jadcherla
+AP,Ashokapuram
+MOO,Muddanuru
+NAW,Nawandgi
+UR,Umdanagar
+SHNR,Shadnagar
+WPR,Wanparti Road
+KKM,Kamalapuram
+CNI,Chandil Jn
+BBM,Barabhum
+RMNP,Ramannapeta
+SCM,Simhachalam
+PVPT,Parvatipuram Tn
+AMB,Ambodala
+HSK,Harishanker Rd
+BGBR,Bagbahra
+SKT,Sakti
+BPH,Belpahar
+HTE,Hatia
+CKU,Chakulia
+RHE,Rakha Mines
+JER,Jaleswar
+VSU,Bishnupur
+BJE,Bhojudih Jn
+VAA,Bhaga Jn
+JAA,Jhalida
+SORO,Soro
+BLS,Balasore
+BLDA,Belda
+DNT,Dantan
+BTS,Basta
+DNM,Dhanmandal
+SIL,Sakhi Gopal
+GMDN,Girimaidan
+SLB,Salboni
+CDGR,Chandrakona Rd
+GBA,Garhbeta
+ODM,Ondagram
+JPH,Jhantipahari
+ANR,Anara
+BIY,Bardoli
+MID,Madhi
+NWU,Navapur
+AGN,Amgaon
+BPHB,Bhilai Pwr Hs
+BUA,Baradwar
+BMB,Bamra
+BANO,Bano
+KASR,Kanas Road
+DEG,Delang
+KAPG,Kalupara Ghat
+KIT,Khallikot
+NRLR,Norla Road
+NPD,Nawapara Road
+AAL,Amlai
+ULB,Ulubaria
+KATI,Kanthi P H
+RMRB,Ramnagar Bengal
+DGHA,Digha
+MJF,Malkajgiri
+GUD,Galudih
+RKSN,Rajkharsawan Jn
+SWR,Sonua
+GOL,Goilkera
+MOU,Manoharpur
+BNDM,Bondamunda
+GPH,Garpos
+RGL,Rengali
+HKG,Hirakud
+BRPL,Barpali
+DJX,Dungripali
+LSX,Loisingha
+SFC,Saintala
+RMT,Ramgarh Cant
+GNG,Gauriganj
+JPL,Japla
+NBG,Nabinagar Road
+JSGR,Jharsuguda Road
+SBPY,Sambalpur City
+TLHD,Talcher Road
+CJN,Chhatna
+SNTD,Santaldih
+BGY,Bangriposi
+BWO,Buramara
+KUCE,Kuchai
+VZR,Bhanjpur
+BPO,Baripada
+JSE,Jamsole
+KCV,Krishna Ch Pura
+BTQ,Betnoti
+JOL,Jogal
+JRG,Jugpura
+TKH,Thakurtota
+ROP,Rupsa Jn
+HIP,Haldipada
+MKO,Markona
+NQR,Naraj Marthapur
+MRDL,Meramandolil
+BONA,Boinda
+BAMR,Bamur
+RAIR,Rairakhol
+BHPI,Bichhupali
+JRTB,Jhartarbha
+NSGR,Narasinghgarh
+SNPU,Sonepur
+MUT,Meerut Cant
+SKF,Sakhoti Tanda
+PBR,Porbandar
+BNVD,Bhanvad
+LPJ,Lalpur Jam
+UJA,Unjha
+PTRD,Pataudi Road
+BLA,Bajalta
+SGRR,Sangar
+MNVL,Manwal
+CRWL,Chak Rakhwal
+ADH,Andheri
+BIM,Bilimora Jn
+AML,Amalsad
+MRL,Maroli
+SCH,Sachin
+VS,Vishvamitri
+EKNR,Ekta Nagar
+KIM,Kim
+KSB,Kosamba Jn
+PLJ,Palej
+MYG,Miyagam Karjan
+VTA,Vatva
+VR,Virar
+BOR,Boisar
+UBR,Umbargam Road
+BVC,Bhavnagar Trmus
+SGD,Songadh
+DLJ,Dhola Jn
+BTD,Botad Jn
+JVN,Joravarnagar
+BHET,Bhestan
+VDV,Vadiya Devli
+KKV,Kunkavav Jn
+CTL,Chital
+KJV,Khijadiya Jn
+LAT,Lathi
+DCK,Dhandhuka
+VLA,Bavla
+SEJ,Sarkhej
+WSJ,Wansjaliya
+JDH,Jam Jodhpur Jn
+UA,Upleta
+DISA,Disa
+DEOR,Diyodar
+BAH,Bhabhar
+RDHP,Radhanpur
+AAR,Adesar
+THDR,Thandla Rd
+KIN,Kapasan
+SRGT,Surendranagar G
+LM,Limbdi
+RUR,Ranpur
+SOJN,Sihor Gujarat
+BVP,Bhavanagar Para
