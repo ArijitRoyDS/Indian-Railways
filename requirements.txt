@@ -1,0 +1,10 @@
+streamlit==1.44.1
+numpy==1.25.0
+pandas==2.0.3
+plotly
+requests
+seaborn
+matplotlib
+regex
+urllib3
+tabulate
