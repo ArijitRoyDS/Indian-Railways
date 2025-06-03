@@ -9,7 +9,7 @@ def parse_running_days(running_on: str) -> str:
     return ', '.join(day for day, status in zip(days, running_on) if status == 'Y')
 
 
-def find_matching_trains_by_name(train_df, query):
+def find_matching_trains_by_name(train_df, query, running_days_filter=None, classes_filter=None):
     matches = []
     fmt = "%H:%M"
     query = query.lower()
@@ -27,6 +27,23 @@ def find_matching_trains_by_name(train_df, query):
 
             if not stations:
                 continue
+
+            # Filter by running days
+            running_on_flags = row["runningOn"]
+            train_days = [day for day, flag in zip(['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], running_on_flags) if flag == "Y"]
+
+            if running_days_filter == "Daily":
+                if not all(flag == "Y" for flag in running_on_flags):
+                    continue
+            elif isinstance(running_days_filter, list) and running_days_filter:
+                if not any(day in train_days for day in running_days_filter):
+                    continue
+
+            # Filter by classes if classes_filter is specified and non-empty
+            train_classes = [cls.strip() for cls in str(row.get("journeyClasses", "")).split(',')]
+            if classes_filter:
+                if not any(cls in train_classes for cls in classes_filter):
+                    continue
 
             from_code = stations[0]
             to_code = stations[-1]
@@ -71,7 +88,7 @@ def find_matching_trains_by_name(train_df, query):
                 "Duration": total_duration,
                 "Distance (km)": str(total_distance),
                 "Avg Speed (km/h)": str(average_speed),
-                "Index": row.name  # retain index to fetch original row later
+                "Index": row.name
             })
 
     return pd.DataFrame(matches)
@@ -80,6 +97,9 @@ def find_matching_trains_by_name(train_df, query):
 def search_by_train(train_df):
     st.subheader("🔍 Search by Train Number or Name")
 
+    con1 = st.container(border=True)
+
+    # Prepare label for selectbox
     train_df["label"] = train_df["trainNumber"].astype(str) + " - " + train_df["trainName"]
     train_labels = sorted(train_df["label"].tolist())
     label_to_number = dict(zip(train_df["label"], train_df["trainNumber"].astype(str)))
@@ -90,7 +110,7 @@ def search_by_train(train_df):
     def on_textinput_change():
         st.session_state["selectbox_train"] = None
 
-    col1, col2 = st.columns(2)
+    col1, dummy, col2 = con1.columns([2, 0.5, 2])
 
     with col1:
         selected_train_label = st.selectbox(
@@ -107,29 +127,52 @@ def search_by_train(train_df):
             on_change=on_textinput_change
         )
 
+    # Running days filter
+    col1.markdown("### 🗓️ Filter by Running Days")
+    day_checks = {}
+    days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Daily']
+    day_cols = col1.columns(len(days))
+    for i, day in enumerate(days):
+        with day_cols[i % len(days)]:
+            day_checks[day] = st.checkbox(day, key=f"day_{day}")
+
+    if day_checks["Daily"]:
+        running_days_filter = "Daily"
+    else:
+        running_days_filter = [day for day in days[:-1] if day_checks[day]]  # exclude 'Daily'
+
+    # Classes filter
+    col2.markdown("### 🛏️ Filter by Available Classes")
+    allowed_classes = ['1A', '2A', '3A', '3E', 'CC', 'SL', 'EV', '2S']
+    class_checks = {}
+    class_cols = col2.columns(len(allowed_classes))
+    for i, cls in enumerate(allowed_classes):
+        with class_cols[i % len(allowed_classes)]:
+            class_checks[cls] = st.checkbox(cls, key=f"class_{cls}")
+
+    classes_filter = [cls for cls in allowed_classes if class_checks.get(cls, False)]
+
     if selected_train_label:
         selected_train_number = label_to_number[selected_train_label]
         selected_row = train_df[train_df["trainNumber"].astype(str) == selected_train_number]
         if not selected_row.empty:
             row = selected_row.iloc[0]
-            st.write(f"### 📍 Full Time Table for Train {row['trainNumber']} - {row['trainName']}")
+            st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
             st.dataframe(build_timetable(row))
         st.markdown("---")
 
     elif query:
-        results_df = find_matching_trains_by_name(train_df, query)
+        results_df = find_matching_trains_by_name(train_df, query, running_days_filter, classes_filter)
 
         if results_df.empty:
             st.info("No matching trains found.")
         else:
             st.write(f"### 🚆 {len(results_df)} Matching Trains")
 
-            # Prepare display with 'Select' column first
             display_df = results_df.drop(columns=["Index"]).copy()
             display_df["Select"] = False
             display_df = display_df[["Select"] + [col for col in display_df.columns if col != "Select"]]
 
-            # Display editor
             edited_df = st.data_editor(
                 display_df,
                 use_container_width=True,
@@ -142,12 +185,11 @@ def search_by_train(train_df):
 
             selected_rows = edited_df[edited_df["Select"] == True]
 
-            # Handle selection
             if len(selected_rows) > 1:
                 st.warning("Please select only one train.")
             elif len(selected_rows) == 1:
                 selected_train_no = selected_rows.iloc[0]["Train No"]
                 original_index = results_df[results_df["Train No"] == selected_train_no]["Index"].values[0]
                 row = train_df.loc[original_index]
-                st.write(f"### 📍 Full Time Table for Train {row['trainNumber']} - {row['trainName']}")
+                st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
                 st.dataframe(build_timetable(row))
