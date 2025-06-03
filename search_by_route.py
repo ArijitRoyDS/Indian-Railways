@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit import session_state as ss
 import pandas as pd
 from datetime import datetime, timedelta
 
@@ -138,9 +139,10 @@ def route_search_ui(train_df, station_df):
     station_labels = sorted(station_df["label"].tolist())
 
     st.subheader("🔍 Search by Route")
-    col1, col2 = st.columns(2)
-    from_label = col1.selectbox("From Station", [None] + station_labels)
-    to_label = col2.selectbox("To Station", [None] + station_labels)
+    con = st.container(border=True)
+    col1, _, col2 = con.columns([2, 0.5, 2])
+    from_label = col1.selectbox("**From Station**", [None] + station_labels)
+    to_label = col2.selectbox("**To Station**", [None] + [x for x in station_labels if x != from_label])
 
     if from_label and to_label:
         from_code = label_to_code[from_label]
@@ -152,17 +154,42 @@ def route_search_ui(train_df, station_df):
 
         result_df = find_matching_trains(train_df, from_code, to_code)
 
+        # Running Days Filter
+        st.write("")
+        col11, _, col12 = con.columns([2, 0.5, 2])
+        col11.markdown("### 🗓️ Filter by Running Days")
+        day_options = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Daily"]
+        day_cols = col11.columns(len(day_options))
+        selected_days = [day for i, day in enumerate(day_options) if day_cols[i].checkbox(day, key=f"day_{day}")]
+
+        if selected_days:
+            if "Daily" in selected_days:
+                result_df = result_df[result_df["Running On"].str.count(',') == 6]
+            else:
+                for day in selected_days:
+                    result_df = result_df[result_df["Running On"].str.contains(day)]
+
+        # Journey Class Filter
+        col12.markdown("### 🛏️ Filter by Available Classes")
+        static_classes = ["1A", "2A", "3A", "3E", "CC", "SL", "EV", "2S"]
+        class_cols = col12.columns(len(static_classes))
+        selected_classes = [cls for i, cls in enumerate(static_classes) if class_cols[i].checkbox(cls, key=f"class_{cls}")]
+
+        if selected_classes:
+            def has_any_selected_class(classes_str):
+                train_classes = [cls.strip().upper() for cls in str(classes_str).split(',')]
+                return any(cls in train_classes for cls in selected_classes)
+
+            result_df = result_df[result_df["Classes"].apply(has_any_selected_class)]
+
         if result_df.empty:
             st.warning("No matching trains found.")
             return
 
-        # Reset index to avoid index conflicts and control column order
         result_df = result_df.copy().reset_index(drop=True)
-
-        # Insert 'Select' column as the FIRST column
         result_df.insert(0, "Select", False)
 
-        # Display editable table with Select column first
+        st.subheader("List of trains")
         edited_df = st.data_editor(
             result_df,
             use_container_width=True,
@@ -170,10 +197,9 @@ def route_search_ui(train_df, station_df):
             key="route_train_selector",
             column_config={"Select": st.column_config.CheckboxColumn("Select")},
             disabled=[col for col in result_df.columns if col != "Select"],
-            num_rows="fixed"  # prevents adding new rows
+            num_rows="fixed"
         )
 
-        # Detect the selected train (only one allowed)
         selected_rows = edited_df[edited_df["Select"] == True]
 
         if len(selected_rows) > 1:
@@ -181,6 +207,6 @@ def route_search_ui(train_df, station_df):
         elif len(selected_rows) == 1:
             selected_train_no = selected_rows.iloc[0]["Train No"]
             row = train_df[train_df["trainNumber"].astype(str) == str(selected_train_no)].iloc[0]
-            st.write(f"### 📍 Full Time Table for Train {row['trainNumber']} - {row['trainName']}")
+            st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
             timetable_df = build_timetable(row)
             st.dataframe(timetable_df)
