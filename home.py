@@ -10,7 +10,7 @@ def home_ui(train_df, station_df):
     def is_superfast(tn):
         if len(tn) >= 1 and tn[0] == "2":
             return True
-        if len(tn) >= 2 and tn[1] == "2":
+        if len(tn) >= 2 and int(tn[0]) <= 2 and tn[1] == "2":
             return True
         return False
     
