@@ -86,8 +86,8 @@ def find_matching_trains_by_name(train_df, query, running_days_filter=None, clas
                 "Departure": dep_origin,
                 "Arrival": arr_dest,
                 "Duration": total_duration,
-                "Distance (km)": str(total_distance),
-                "Avg Speed (km/h)": str(average_speed),
+                "Distance (km)": int(total_distance),
+                "Avg Speed (km/h)": int(average_speed),
                 "Index": row.name
             })
 
