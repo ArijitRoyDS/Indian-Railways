@@ -127,8 +127,8 @@ def find_matching_trains(train_df, from_code, to_code):
                     f"Departure ({from_code})": dep_origin,
                     f"Arrival ({to_code})": arr_dest,
                     "Duration": total_duration,
-                    "Distance (km)": total_distance,
-                    "Avg Speed (km/h)": average_speed,
+                    "Distance (km)": int(total_distance),
+                    "Avg Speed (km/h)": int(average_speed),
                 })
 
     return pd.DataFrame(matches)
