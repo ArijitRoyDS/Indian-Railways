@@ -19,8 +19,8 @@ def get_train_labels(train_df):
 @st.cache_data
 def load_data():
     pwd = os.getcwd()
-    train_df = pd.read_csv(f"{pwd}/database/train_schedule.csv", low_memory=False)
-    station_df = pd.read_csv(f"{pwd}/database/station_index.csv", low_memory=False)
+    train_df = pd.read_csv(f"{pwd}/database/train_schedule_1.csv", low_memory=False)
+    station_df = pd.read_csv(f"{pwd}/database/station_index_1.csv", low_memory=False)
     station_df["label"] = station_df["stationCode"] + " - " + station_df["stationName"]
     return train_df, station_df
 
