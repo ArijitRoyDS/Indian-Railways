@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 import pandas as pd
 import os
 from search_by_train import search_by_train
@@ -23,27 +24,38 @@ def load_data():
     station_df["label"] = station_df["stationCode"] + " - " + station_df["stationName"]
     return train_df, station_df
 
-
 train_df, station_df = load_data()
 
-st.title("🚂 Indian Railways")
-st.write("_________")
+col1, col2 = st.columns([2, 5])
 
-tab_home, tab1, tab2, tab3 = st.tabs([
-    "🏠 Home",
-    "🔢 **Search by Train Number/Name**", 
-    "🗺️ **Search by Source & Destination**",
-    "📍 **Search by Station**"
-])
+col1.title("🚂 Indian Railways")
 
-with tab_home:
+options=["Home", "Train No Search", "Trains Between Stations", "Trains At Station"]
+icons=["house", "train-lightrail-front", "map", "geo"]
+    
+index = 0
+
+with col2:
+    st.write("")
+    selected_tab = option_menu(
+        menu_title=None,  # No title for the top-level menu
+        options=options,
+        icons=icons,
+        menu_icon="cast",
+        default_index=index,
+        orientation="horizontal",
+    )
+st.write("__________")
+st.write("")
+
+if selected_tab == "Home":
     home_ui(train_df, station_df)
 
-with tab1:
+elif selected_tab == "Train No Search":
     search_by_train(train_df)
 
-with tab2:
+elif selected_tab == "Trains Between Stations":
     route_search_ui(train_df, station_df)
 
-with tab3:
+elif selected_tab == "Trains At Station":
     search_by_station_ui(train_df, station_df, build_timetable)
