@@ -16,7 +16,7 @@ train_type_lookup = {
     "JShtb": "Jan Shatabdi",
     "Klkt": "Kolkata EMU",
     "MEMU": "MEMU",
-    "Mumb": "Mumbai EMU"
+    "Mumb": "Mumbai EMU",
     "Pass": "Passenger",
     "Raj": "Rajdhani",
     "SF": "Superfast",
