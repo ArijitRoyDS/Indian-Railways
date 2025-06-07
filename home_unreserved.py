@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from config import train_type_lookup
+from config import train_type_lookup, train_type_lookup_unreserved
 
 
 def is_superfast(train_number: str) -> bool:
@@ -29,7 +29,7 @@ def generate_bar_chart(df: pd.DataFrame, group_col: str, label: str):
         color=group_col,  # Unique color per bar
         title=f"Train Count by {label}",
         text="Count",
-        height=650,
+        height=550,
         width=600
     )
 
@@ -61,7 +61,7 @@ def home_ui_unreserved(master_train_df: pd.DataFrame, station_df: pd.DataFrame):
     st.subheader("🏠 Overview Metrics")
     
     master_train_df["Train No"] = master_train_df["Train No"].apply(lambda x: int(float(x)))
-    master_train_df = master_train_df[(master_train_df["Train No"] >= 30000) & (master_train_df["Train No"] <= 59999)]
+    master_train_df = master_train_df[(master_train_df["Train No"] >= 30000) & (master_train_df["Train No"] <= 99999)]
     master_train_df = master_train_df.reset_index(drop=True)
 
     # Basic metrics
@@ -85,7 +85,7 @@ def home_ui_unreserved(master_train_df: pd.DataFrame, station_df: pd.DataFrame):
         st.stop()
 
     # Map full train type names using lookup
-    master_train_df["Train-Type"] = master_train_df["Train Type"].map(train_type_lookup).fillna(master_train_df["Train Type"])
+    master_train_df["Train-Type"] = master_train_df["Train Type"].map(train_type_lookup_unreserved).fillna(master_train_df["Train Type"])
 
     st.markdown("---")
     st.subheader("🚉 Train Distribution by Train Type")

@@ -26,10 +26,15 @@ def get_train_labels(train_df):
 def load_data():
     pwd = os.getcwd()
     master_train_df = pd.read_csv(f"{pwd}/database/master_list.csv", low_memory=False)
-    train_df = pd.read_csv(f"{pwd}/database/train_schedule.csv", low_memory=False)
+    train_df = pd.read_csv(f"{pwd}/database/reserved_train_schedule.csv", low_memory=False)
     unreserved_train_df = pd.read_csv(f"{pwd}/database/unreserved_train_schedule.csv", low_memory=False)
+    
     station_df = pd.read_csv(f"{pwd}/database/station_index.csv", low_memory=False)
+    station_df = station_df.drop_duplicates(subset="stationCode", keep="first")    
+    station_df["stationCode"] = station_df["stationCode"].str.upper()
+    station_df["stationName"] = station_df["stationName"].str.upper()
     station_df["label"] = station_df["stationCode"] + " - " + station_df["stationName"]
+
     return master_train_df, train_df, station_df, unreserved_train_df
 
 master_train_df, train_df, station_df, unreserved_train_df = load_data()

@@ -29,7 +29,7 @@ def generate_bar_chart(df: pd.DataFrame, group_col: str, label: str):
         color=group_col,  # Unique color per bar
         title=f"Train Count by {label}",
         text="Count",
-        height=650,
+        height=550,
         width=600
     )
 
