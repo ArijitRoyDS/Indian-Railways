@@ -10,3 +10,4 @@ regex
 urllib3
 tabulate
 geopy
+opencage
