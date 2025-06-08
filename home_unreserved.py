@@ -53,8 +53,7 @@ def generate_bar_chart(df: pd.DataFrame, group_col: str, label: str):
         use_container_width=True,
         hide_index=True
     )
-
-
+    
 
 
 def home_ui_unreserved(master_train_df: pd.DataFrame, station_df: pd.DataFrame):

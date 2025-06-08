@@ -1,6 +1,6 @@
 train_type_lookup = {
     "AB": "Amrit Bharat",
-    "ACExp": "Express",
+    "ACExp": "Mail / Express",
     "ACSF": "Superfast",
     "Ant": "Antyodaya",
     "Chn": "EMU",
@@ -31,7 +31,7 @@ train_type_lookup = {
 
 train_type_lookup_unreserved = {
     "AB": "Amrit Bharat",
-    "ACExp": "Express",
+    "ACExp": "Mail / Express",
     "ACSF": "Superfast",
     "Ant": "Antyodaya",
     "Chn": "Chennai EMU",

@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit import session_state as ss
 import pandas as pd
 from datetime import datetime, timedelta
+from support_functions.support_modules import map_plot
 
 
 def parse_running_days(running_on: str) -> str:
@@ -207,6 +208,16 @@ def route_search_ui(train_df, station_df):
         elif len(selected_rows) == 1:
             selected_train_no = selected_rows.iloc[0]["Train No"]
             row = train_df[train_df["trainNumber"].astype(str) == str(selected_train_no)].iloc[0]
-            st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
-            timetable_df = build_timetable(row)
-            st.dataframe(timetable_df)
+            # st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
+            # timetable_df = build_timetable(row)
+            # st.dataframe(timetable_df)
+            
+            df=build_timetable(row)
+            col1, col2 = st.columns([4, 2])
+            with col1:
+                st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
+                st.dataframe(df)
+            with col2:
+                st.subheader(f"Route Map (Beta)")
+                if st.button("Show Map"):
+                    map_plot(df)

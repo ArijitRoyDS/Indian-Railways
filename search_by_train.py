@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 from search_by_route import build_timetable
+from support_functions.support_modules import map_plot
 
 
 def parse_running_days(running_on: str) -> str:
@@ -157,8 +158,18 @@ def search_by_train(train_df):
         selected_row = train_df[train_df["trainNumber"].astype(str) == selected_train_number]
         if not selected_row.empty:
             row = selected_row.iloc[0]
-            st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
-            st.dataframe(build_timetable(row))
+            
+            df=build_timetable(row)
+            col1, col2 = st.columns([4, 2])
+            with col1:
+                st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
+                st.dataframe(df)
+            with col2:
+                st.subheader(f"Route Map (Beta)")
+                if st.button("Show Map"):
+                    map_plot(df)
+                    
+                    
         st.markdown("---")
 
     elif query:
@@ -191,5 +202,14 @@ def search_by_train(train_df):
                 selected_train_no = selected_rows.iloc[0]["Train No"]
                 original_index = results_df[results_df["Train No"] == selected_train_no]["Index"].values[0]
                 row = train_df.loc[original_index]
-                st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
-                st.dataframe(build_timetable(row))
+
+                df=build_timetable(row)
+                col1, col2 = st.columns([4, 2])
+                with col1:
+                    st.subheader(f"Full Time Table for Train No: {row['trainNumber']} - {row['trainName']}")
+                    st.dataframe(df)
+                with col2:
+                    st.subheader(f"Route Map (Beta)")
+                    if st.button("Show Map"):
+                        map_plot(df)
+
