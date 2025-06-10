@@ -11,7 +11,10 @@ def search_by_station_ui_unreserved(train_df, station_df, build_timetable):
     st.subheader("📍 Find Trains Passing Through a Station")
     con1 = st.container(border=True)
 
-    stations_with_none = ["None"] + sorted(station_df["label"].tolist())
+    stations_with_none = ["None"] + sorted(
+        station_df["label"].dropna().astype(str).tolist()
+    )
+
     selected_station = con1.selectbox("**Select a station**", stations_with_none, index=0)
 
     # Filter trains passing through selected station code
@@ -45,7 +48,7 @@ def search_by_station_ui_unreserved(train_df, station_df, build_timetable):
 
     # --- Class Filter UI ---
     col2.markdown("### 🛏️ Filter by Available Classes")
-    static_classes = ["1A", "2A", "3A", "3E", "CC", "SL", "EV", "2S"]
+    static_classes = ["1A", "2A", "3A", "3E", "CC", "SL", "FC", "EV", "VS", "EA", "2S"]
     class_cols = col2.columns(len(static_classes))
     selected_classes = [cls for i, cls in enumerate(static_classes) if class_cols[i].checkbox(cls, key=f"station_class_{cls}")]
 

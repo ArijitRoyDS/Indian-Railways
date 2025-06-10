@@ -29,7 +29,7 @@ def load_data():
     train_df = pd.read_csv(f"{pwd}/database/reserved_train_schedule.csv", low_memory=False)
     unreserved_train_df = pd.read_csv(f"{pwd}/database/unreserved_train_schedule.csv", low_memory=False)
     
-    station_df = pd.read_csv(f"{pwd}/database/station_index.csv", low_memory=False)
+    station_df = pd.read_csv(f"{pwd}/database/station_index_with_coords.csv", low_memory=False)
     station_df = station_df.drop_duplicates(subset="stationCode", keep="first")    
     station_df["stationCode"] = station_df["stationCode"].str.upper()
     station_df["stationName"] = station_df["stationName"].str.upper()
